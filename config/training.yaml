@@ -7,7 +7,7 @@ BACKEND_NETWORK: MOBILENET
 USING_GPU: TRUE
 GPU_ID: 0
 
-PRETRAINED_SHUFFLENET: /home/emaraic/semanticSegmentation/Repos/deeplabResnext/models/ShuffleNet_1g8_Top1_67.408_Top5_87.258.pth
-PRETRAINED_MOBILENET: /home/emaraic/semanticSegmentation/Repos/deeplabResnext/models/mobilenet_v2.pth
+PRETRAINED_SHUFFLENET: /content/LiteSeg
+PRETRAINED_MOBILENET: /content/LiteSeg
 PRETRAINED_DarkNET19: /home/emaraic/semanticSegmentation/Repos/deeplabResnext/models/darknet19_448.weights
 
