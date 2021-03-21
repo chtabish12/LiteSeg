@@ -1,5 +1,5 @@
-DATASET_FINE: /home/emaraic/semanticSegmentation/datasets/cityscapes
-DATASET_COARSE: /home/emaraic/semanticSegmentation/datasets/CityscapesExtra
+DATASET_FINE: /content/LiteSeg
+DATASET_COARSE: /content/LiteSeg
 
 USING_COARSE: False
 BACKEND_NETWORK: MOBILENET
@@ -7,7 +7,7 @@ BACKEND_NETWORK: MOBILENET
 USING_GPU: TRUE
 GPU_ID: 0
 
-PRETRAINED_SHUFFLENET: /home/emaraic/semanticSegmentation/Repos/deeplabResnext/models/ShuffleNet_1g8_Top1_67.408_Top5_87.258.pth
-PRETRAINED_MOBILENET: /home/emaraic/semanticSegmentation/Repos/deeplabResnext/models/mobilenet_v2.pth
-PRETRAINED_DarkNET19: /home/emaraic/semanticSegmentation/Repos/deeplabResnext/models/darknet19_448.weights
+PRETRAINED_SHUFFLENET: /content/LiteSeg
+PRETRAINED_MOBILENET: /content/LiteSeg
+PRETRAINED_DarkNET19: /content/LiteSeg
 
